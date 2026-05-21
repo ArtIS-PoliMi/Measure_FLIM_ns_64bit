@@ -1,0 +1,16 @@
+gpib488.obj
+Panel_ns.obj
+R6_utilities.obj
+cvistart.lib
+cvi.lib
+kernel32.lib
+nivision.lib
+pvcam64.lib
+toolbox.obj
+advapi32.lib
+cviauto.lib
+gdi32.lib
+user32.lib
+EXE Symbol Module
+Exports Module
+Resource Module

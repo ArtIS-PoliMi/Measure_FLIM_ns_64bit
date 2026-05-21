@@ -1,0 +1,392 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[CreateUserPalette]
+Class="Function"
+Prototype="void CreateUserPalette();"
+
+[InitUir]
+Class="Function"
+Prototype="void InitUir();"
+
+[GetAddrMeas]
+Class="Function"
+Prototype="void *GetAddrMeas(int Control, int Panel);"
+
+[UpdateMeasure]
+Class="Function"
+Prototype="int UpdateMeasure(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Quit]
+Class="Function"
+Prototype="void Quit(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[InitHw]
+Class="Function"
+Prototype="int InitHw(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[UpdateIntensifier]
+Class="Function"
+Prototype="int UpdateIntensifier(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[UpdateCcd]
+Class="Function"
+Prototype="int UpdateCcd(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[UpdateRoiValues]
+Class="Function"
+Prototype="int UpdateRoiValues(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetTimeExp]
+Class="Function"
+Prototype="int SetTimeExp(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetDelay]
+Class="Function"
+Prototype="int SetDelay(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetGain]
+Class="Function"
+Prototype="int SetGain(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[BkgOnOff]
+Class="Function"
+Prototype="int BkgOnOff(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SingleGrab]
+Class="Function"
+Prototype="int SingleGrab(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ImageGrab]
+Class="Function"
+Prototype="int ImageGrab(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Acquire]
+Class="Function"
+Prototype="void Acquire(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[LoadSetting]
+Class="Function"
+Prototype="void LoadSetting(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[SaveSetting]
+Class="Function"
+Prototype="void SaveSetting(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[LoadImg]
+Class="Function"
+Prototype="void LoadImg(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[ccdpanel]
+Class="Function"
+Prototype="void ccdpanel(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[GrayPanel]
+Class="Function"
+Prototype="void GrayPanel(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[SmallPanel]
+Class="Function"
+Prototype="void SmallPanel(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[Del150Panel]
+Class="Function"
+Prototype="void Del150Panel(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[UpdateD150]
+Class="Function"
+Prototype="int UpdateD150(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CloseD150Panel]
+Class="Function"
+Prototype="int CloseD150Panel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[StanfordPanel]
+Class="Function"
+Prototype="void StanfordPanel(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[UpdateStanford]
+Class="Function"
+Prototype="int UpdateStanford(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CloseStanfordPanel]
+Class="Function"
+Prototype="int CloseStanfordPanel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[About]
+Class="Function"
+Prototype="void About(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[OpenDisplay]
+Class="Function"
+Prototype="void OpenDisplay(int *window);"
+
+[CloseDisplay]
+Class="Function"
+Prototype="void CloseDisplay(int *window);"
+
+[CreateImage]
+Class="Function"
+Prototype="void CreateImage(unsigned short *buffer, int w, int h, struct Image_struct *image);"
+
+[DisplayImage]
+Class="Function"
+Prototype="void DisplayImage(struct Image_struct *image, int *window);"
+
+[CreateSpectrum]
+Class="Function"
+Prototype="void CreateSpectrum(unsigned short *buffer12, int w, int h, double *bufferSpectrum);"
+
+[DisplaySpectrum]
+Class="Function"
+Prototype="void DisplaySpectrum(double *bufferSpectrum, int w);"
+
+[checkR6Error]
+Class="Function"
+Prototype="void checkR6Error();"
+
+[DisplayMeasurePanel]
+Class="Function"
+Prototype="int DisplayMeasurePanel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[GetCcdParamValue]
+Class="Function"
+Prototype="int GetCcdParamValue(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[InitCCD]
+Class="Function"
+Prototype="int InitCCD(int ccdType);"
+
+[QuitCCD]
+Class="Function"
+Prototype="int QuitCCD(int ccdType);"
+
+[GetCcdSettings]
+Class="Function"
+Prototype="void GetCcdSettings(int ccdType);"
+
+[SetCcdSettings]
+Class="Function"
+Prototype="void SetCcdSettings(int ccdType);"
+
+[SetCcdDefaultSettings]
+Class="Function"
+Prototype="int SetCcdDefaultSettings(int ccdType);"
+
+[SetTimeExpM]
+Class="Function"
+Prototype="int SetTimeExpM(int ccdType);"
+
+[GetCcdStatus]
+Class="Function"
+Prototype="int GetCcdStatus(int ccdType);"
+
+[SetSeqMode]
+Class="Function"
+Prototype="void SetSeqMode(int ccdType);"
+
+[ResetSimMode]
+Class="Function"
+Prototype="void ResetSimMode(int ccdType);"
+
+[GetImageSize]
+Class="Function"
+Prototype="void GetImageSize(int ccdType, int *w, int *h);"
+
+[ReadCcd]
+Class="Function"
+Prototype="void ReadCcd(int ccdType, unsigned short *b);"
+
+[GrabCcdImage]
+Class="Function"
+Prototype="void GrabCcdImage(int ccdType, int mode, unsigned short *b);"
+
+[StopCcd]
+Class="Function"
+Prototype="void StopCcd(int ccdType, int mode);"
+
+[InitIntensifier]
+Class="Function"
+Prototype="int InitIntensifier();"
+
+[QuitIntensifier]
+Class="Function"
+Prototype="void QuitIntensifier();"
+
+[WriteIntensifier]
+Class="Function"
+Prototype="void WriteIntensifier(char *StringCommand);"
+
+[ReadIntensifier]
+Class="Function"
+Prototype="void ReadIntensifier(char *StringResponse, char *StringCommand, int echo);"
+
+[UpdateIntensifierM]
+Class="Function"
+Prototype="void UpdateIntensifierM();"
+
+[GetIntensifierStatus]
+Class="Function"
+Prototype="int GetIntensifierStatus(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetGainM]
+Class="Function"
+Prototype="int SetGainM(int CurrentGain);"
+
+[VerifyGain]
+Class="Function"
+Prototype="void VerifyGain(int valueSet, int *valueRead);"
+
+[GetRealGain]
+Class="Function"
+Prototype="int GetRealGain();"
+
+[Wait]
+Class="Function"
+Prototype="void Wait(unsigned int pause);"
+
+[InitDelayGenerator]
+Class="Function"
+Prototype="int InitDelayGenerator(int delayType);"
+
+[InitDel150]
+Class="Function"
+Prototype="int InitDel150();"
+
+[UpdateD150M]
+Class="Function"
+Prototype="short UpdateD150M();"
+
+[InitStanford]
+Class="Function"
+Prototype="int InitStanford();"
+
+[UpdateStanfordM]
+Class="Function"
+Prototype="void UpdateStanfordM();"
+
+[SetDelayM]
+Class="Function"
+Prototype="int SetDelayM(int delayType, int d);"
+
+[QuitDelayGenerator]
+Class="Function"
+Prototype="void QuitDelayGenerator(int delayType);"
+
+[AllocBuffer]
+Class="Function"
+Prototype="void AllocBuffer(int ccdType);"
+
+[QuitBuffer]
+Class="Function"
+Prototype="void QuitBuffer();"
+
+[FreeBuf]
+Class="Function"
+Prototype="void FreeBuf();"
+
+[RotateBuffer]
+Class="Function"
+Prototype="void RotateBuffer(unsigned short *b12, int w, int h);"
+
+[ActivateIntensifierButtons]
+Class="Function"
+Prototype="void ActivateIntensifierButtons();"
+
+[ActivateDELButtons]
+Class="Function"
+Prototype="void ActivateDELButtons();"
+
+[ActivateCCDButtons]
+Class="Function"
+Prototype="void ActivateCCDButtons(ccdType);"
+
+[ActivateLaserButtons]
+Class="Function"
+Prototype="void ActivateLaserButtons();"
+
+[DeactivateButtons]
+Class="Function"
+Prototype="void DeactivateButtons();"
+
+[LoadBkgM]
+Class="Function"
+Prototype="int LoadBkgM();"
+
+[LoadImgM]
+Class="Function"
+Prototype="void LoadImgM();"
+
+[SingleGrabM]
+Class="Function"
+Prototype="int SingleGrabM();"
+
+[ImageGrabM]
+Class="Function"
+Prototype="int ImageGrabM();"
+
+[AcquireM]
+Class="Function"
+Prototype="int AcquireM();"
+
+[FindCcdExposure]
+Class="Function"
+Prototype="void FindCcdExposure(int value_msec, int *roundValue_msec);"
+
+[SelectGainM]
+Class="Function"
+Prototype="void SelectGainM(int *v);"
+
+[FindOptimal_ExpTime_Gain]
+Class="Function"
+Prototype="void FindOptimal_ExpTime_Gain(double ev, double *g, double *t);"
+
+[FindOptimal_Gain]
+Class="Function"
+Prototype="void FindOptimal_Gain(double ev, double *g);"
+
+[CreateGainValues]
+Class="Function"
+Prototype="void CreateGainValues();"
+
+[FindVoltage]
+Class="Function"
+Prototype="int FindVoltage(double gain);"
+
+[SaveImage]
+Class="Function"
+Prototype="int SaveImage(unsigned short *buffer);"
+
+[GetImage]
+Class="Function"
+Prototype="void GetImage(unsigned short *b12);"
+
+[SaveAuto]
+Class="Function"
+Prototype="void SaveAuto(unsigned short *buffer);"
+
+[CreatePath]
+Class="Function"
+Prototype="void CreatePath();"
+
+[CreatePath1]
+Class="Function"
+Prototype="void CreatePath1();"
+
+[StatsCalc]
+Class="Function"
+Prototype="void StatsCalc(unsigned short *buffer, int rowL, int colL);"
+
+[ShowConsole]
+Class="Function"
+Prototype="void ShowConsole();"
+
+[AutoIncrementFile]
+Class="Function"
+Prototype="void AutoIncrementFile();"
+
+[OverwritingFile]
+Class="Function"
+Prototype="int OverwritingFile();"
+

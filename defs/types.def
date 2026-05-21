@@ -1,0 +1,7 @@
+X(INT,    "%d",  int) 
+X(SHORT,  "%hd", short) 
+X(UNS16,  "%hu", uns16) 
+X(UNS32,  "%u",  uns32) 
+X(FLOAT,  "%f",  float) 
+X(DOUBLE, "%lf", double) 
+X(CHAR_ARRAY, "%s",  char*)

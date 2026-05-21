@@ -1,0 +1,517 @@
+[Workspace Header]
+Version = 1700
+Pathname = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/Measure_Flim_ns_64bit.cws"
+CVI Dir = "/c/program files (x86)/national instruments/cvi2017"
+CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2017"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "Measure_Flim_ns_64bit.prj"
+Drag Bar Left = 346
+Window Top = 36
+Window Left = 440
+Window Bottom = 1023
+Window Right = 1382
+Maximized = True
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win At Start = True
+Bring Up Err Win For Errors = False
+Save Changes Before Running = "Always"
+Save Changes Before Compiling = "Always"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 5
+Window Confinement Region Enabled = True
+MainColumnWidth = 329
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+
+[Project Header 0001]
+Version = 1700
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Release64"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/Panel_ns.uir"
+File Type = "User Interface Resource"
+Disk Date = 3862200025
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Window Height = 349
+Window Width = 683
+Window Z-Order = 2
+
+[File 0002]
+Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/Panel_ns.c"
+File Type = "CSource"
+Disk Date = 3862222470
+In Projects = "1,"
+Window Top = 38
+Window Left = 11
+Window Z-Order = 1
+Source Window State = "1,4059,4059,4059,79,80,79,1,3,166,0,0,0,0,0,54,4053,0,4059,80,427,804,1,0,"
+
+[File 0003]
+Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/R6_utilities.c"
+File Type = "CSource"
+Disk Date = 3558413536
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Window Z-Order = 5
+Source Window State = "1,2,3,3,0,8160,42,1,0,67,0,0,0,80,0,20,0,0,2,42,349,683,1,14,"
+
+[File 0004]
+Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/Measure_nsF2026.h"
+File Type = "Include"
+Disk Date = 3862219517
+In Projects = "1,"
+Window Top = 110
+Window Left = 49
+Window Z-Order = 3
+Source Window State = "1,368,368,368,12,15,15,1,3,80,0,356,0,0,0,25,341,0,368,12,427,804,1,11,"
+
+[File 0005]
+Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/consoleprofile_pnl_ctrls.def"
+File Type = "Unknown"
+Disk Date = 3857983583
+In Projects = "1,"
+
+[File 0006]
+Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/d150_pnl_ctrls.def"
+File Type = "Unknown"
+Disk Date = 3858076251
+In Projects = "1,"
+Window Top = 146
+Window Left = 68
+
+[File 0007]
+Path Line0001 = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/delays_for_gain_calc_and_mea"
+Path Line0002 = "surement.def"
+File Type = "Unknown"
+Disk Date = 3860845903
+In Projects = "1,"
+Window Top = 74
+Window Left = 30
+
+[File 0008]
+Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/measure_pnl_ctrls.def"
+File Type = "Unknown"
+Disk Date = 3859274958
+In Projects = "1,"
+Window Top = 38
+Window Left = 11
+
+[File 0009]
+Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/small_pnl_ctrls.def"
+File Type = "Unknown"
+Disk Date = 3858940628
+In Projects = "1,"
+Window Top = 38
+Window Left = 11
+Window Z-Order = 4
+
+[File 0010]
+Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/stanford_pnl_ctrls.def"
+File Type = "Unknown"
+Disk Date = 3857981457
+In Projects = "1,"
+
+[File 0011]
+Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/types.def"
+File Type = "Unknown"
+Disk Date = 3857989217
+In Projects = "1,"
+Window Top = 182
+Window Left = 87
+
+[File 0012]
+Path = "/c/Program Files/Photometrics/PVCamSDK/Inc/master.h"
+File Type = "Include"
+Disk Date = 3579043048
+In Projects = "1,"
+Window Top = 122
+Window Left = 58
+Source Window State = "1,51,51,51,2,28,28,0,0,0,0,0,0,0,0,0,0,0,8,19,349,683,1,0,"
+
+[File 0013]
+Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/Panel_ns.h"
+File Type = "Include"
+Disk Date = 3862200025
+In Projects = "1,"
+Window Top = 218
+Window Left = 106
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,427,804,1,0,"
+
+[File 0014]
+Path = "/c/Program Files/Photometrics/PVCamSDK/Inc/pvcam.h"
+File Type = "Include"
+Disk Date = 3631256450
+In Projects = "1,"
+Window Top = 36
+Window Left = 10
+Source Window State = "1,83,83,83,22,23,22,1,0,0,0,0,0,0,0,0,103,0,82,21,297,683,1,0,"
+
+[File 0015]
+Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/R6_utilities.h"
+File Type = "Include"
+Disk Date = 3557992605
+In Projects = "1,"
+Window Top = 122
+Window Left = 58
+Source Window State = "1,30,30,30,4,17,17,0,3,0,0,37,0,37,0,0,6,0,30,4,349,683,1,0,"
+
+[File 0016]
+Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/Table_ns.h"
+File Type = "Include"
+Disk Date = 3844754293
+In Projects = "1,"
+Window Top = 36
+Window Left = 10
+Source Window State = "1,21,29,21,0,8160,17,1,0,0,0,84,0,0,0,0,0,0,29,21,349,683,1,0,"
+
+[File 0017]
+Path Line0001 = "/c/Program Files/Photometrics/PVCamSDK/Examples/PvcamCodeSamples/src/CommonFiles"
+Path Line0002 = "/version.h"
+File Type = "Include"
+Disk Date = 3631611754
+In Projects = "1,"
+Window Top = 38
+Window Left = 11
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,531,1020,1,0,"
+
+[File 0018]
+Path = "/c/Program Files (x86)/National Instruments/CVI2017/bin/msvc64/gpib.lib"
+File Type = "Library"
+Disk Date = 3573590400
+In Projects = "1,"
+
+[File 0019]
+Path = "/c/Users/Public/Documents/GPIB-488/Language Interfaces/C/win64/gpib488.obj"
+File Type = "Object"
+Disk Date = 3316029960
+In Projects = "1,"
+
+[File 0020]
+Path = "/c/Program Files (x86)/National Instruments/Vision/Lib/MSVC64/nivision.lib"
+File Type = "Library"
+Disk Date = 3620628362
+In Projects = "1,"
+
+[File 0021]
+Path = "/c/Program Files/Photometrics/PVCamSDK/Lib/i386/pvcam32.lib"
+File Type = "Library"
+Disk Date = 3632954622
+In Projects = "1,"
+
+[File 0022]
+Path = "/c/Program Files/Photometrics/PVCamSDK/Lib/amd64/pvcam64.lib"
+File Type = "Library"
+Disk Date = 3632954622
+In Projects = "1,"
+
+[Tab Order]
+Tab 0001 = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/Panel_ns.uir"
+Tab 0002 = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/Panel_ns.c"
+Tab 0003 = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/R6_utilities.c"
+Tab 0004 = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/Measure_nsF2026.h"
+Tab 0005 = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/small_pnl_ctrls.def"
+
+[Default Build Config 0001 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0001]
+Number of Dependencies = 0
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+
+[Watch 1]
+Watch Expression = "currentValue"
+
+[Watch 2]
+Watch Expression = "uns32currentValue"
+
+[Watch 3]
+Watch Expression = "currentValue"
+
+[Watch 4]
+Watch Expression = "*currentValue"
+
+[Watch 5]
+Watch Expression = "ccdRoi"
+
+[Watch 6]
+Watch Expression = "ccdRoi.p1"
+
+[Watch 7]
+Watch Expression = "ccdRoi.p2"
+
+[Watch 8]
+Watch Expression = "ccdRoi.pbin"
+
+[Watch 9]
+Watch Expression = "currentValue"
+
+[Watch 10]
+Watch Expression = "uns32currentValue"
+
+[Watch 11]
+Watch Expression = "currentValue"
+
+[Watch 12]
+Watch Expression = "*currentValue"
+
+[Watch 13]
+Watch Expression = "ccdRoi"
+
+[Watch 14]
+Watch Expression = "ccdRoi.p1"
+
+[Watch 15]
+Watch Expression = "ccdRoi.p2"
+
+[Watch 16]
+Watch Expression = "ccdRoi.pbin"
+
+[Watch 17]
+Watch Expression = "currentValue"
+
+[Watch 18]
+Watch Expression = "uns32currentValue"
+
+[Watch 19]
+Watch Expression = "currentValue"
+
+[Watch 20]
+Watch Expression = "*currentValue"
+
+[Watch 21]
+Watch Expression = "ccdRoi"
+
+[Watch 22]
+Watch Expression = "ccdRoi.p1"
+
+[Watch 23]
+Watch Expression = "ccdRoi.p2"
+
+[Watch 24]
+Watch Expression = "ccdRoi.pbin"
+
+[Watch 25]
+Watch Expression = "currentValue"
+
+[Watch 26]
+Watch Expression = "uns32currentValue"
+
+[Watch 27]
+Watch Expression = "currentValue"
+
+[Watch 28]
+Watch Expression = "*currentValue"
+
+[Watch 29]
+Watch Expression = "ccdRoi"
+
+[Watch 30]
+Watch Expression = "ccdRoi.p1"
+
+[Watch 31]
+Watch Expression = "ccdRoi.p2"
+
+[Watch 32]
+Watch Expression = "ccdRoi.pbin"
+
+[Watch 33]
+Watch Expression = "currentValue"
+
+[Watch 34]
+Watch Expression = "uns32currentValue"
+
+[Watch 35]
+Watch Expression = "currentValue"
+
+[Watch 36]
+Watch Expression = "*currentValue"
+
+[Watch 37]
+Watch Expression = "ccdRoi"
+
+[Watch 38]
+Watch Expression = "ccdRoi.p1"
+
+[Watch 39]
+Watch Expression = "ccdRoi.p2"
+
+[Watch 40]
+Watch Expression = "ccdRoi.pbin"
+
+[Watch 41]
+Watch Expression = "currentValue"
+
+[Watch 42]
+Watch Expression = "uns32currentValue"
+
+[Watch 43]
+Watch Expression = "currentValue"
+
+[Watch 44]
+Watch Expression = "*currentValue"
+
+[Watch 45]
+Watch Expression = "ccdRoi"
+
+[Watch 46]
+Watch Expression = "ccdRoi.p1"
+
+[Watch 47]
+Watch Expression = "ccdRoi.p2"
+
+[Watch 48]
+Watch Expression = "ccdRoi.pbin"
+
+[Watch 49]
+Watch Expression = "currentValue"
+
+[Watch 50]
+Watch Expression = "uns32currentValue"
+
+[Watch 51]
+Watch Expression = "currentValue"
+
+[Watch 52]
+Watch Expression = "*currentValue"
+
+[Watch 53]
+Watch Expression = "ccdRoi"
+
+[Watch 54]
+Watch Expression = "ccdRoi.p1"
+
+[Watch 55]
+Watch Expression = "ccdRoi.p2"
+
+[Watch 56]
+Watch Expression = "ccdRoi.pbin"
+
+[Watch 57]
+Watch Expression = "currentValue"
+
+[Watch 58]
+Watch Expression = "uns32currentValue"
+
+[Watch 59]
+Watch Expression = "currentValue"
+
+[Watch 60]
+Watch Expression = "*currentValue"
+
+[Watch 61]
+Watch Expression = "ccdRoi"
+
+[Watch 62]
+Watch Expression = "ccdRoi.p1"
+
+[Watch 63]
+Watch Expression = "ccdRoi.p2"
+
+[Watch 64]
+Watch Expression = "ccdRoi.pbin"
+
+[Watch 65]
+Watch Expression = "File.List.Path"
+

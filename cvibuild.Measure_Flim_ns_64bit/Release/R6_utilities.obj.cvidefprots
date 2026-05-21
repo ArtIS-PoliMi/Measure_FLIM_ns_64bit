@@ -1,0 +1,12 @@
+[IsParamAvailable]
+Class="Function"
+Prototype="int IsParamAvailable(short hCam, unsigned long paramID);"
+
+[GetParamValue]
+Class="Function"
+Prototype="int GetParamValue(short hCam, unsigned long paramID, void *currentValue);"
+
+[GetEnumParamValue]
+Class="Function"
+Prototype="int GetEnumParamValue(short hCam, unsigned long paramID, char *descriptionTxt);"
+

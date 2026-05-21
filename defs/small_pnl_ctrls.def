@@ -1,0 +1,5 @@
+X(SMALLPANEL_DELAY_SMALL, smallpanel, &Delays.Set, DELAY_SMALL, INT) 
+X(SMALLPANEL_GAIN_SMALL, smallpanel, &Gain.Set, GAIN_SMALL, INT) 
+X(SMALLPANEL_GRAY_HIGH, smallpanel, &Ccd.grayH, GRAY_HIGH, UNS32) 
+X(SMALLPANEL_GRAY_LOW, smallpanel, &Ccd.grayL, GRAY_LOW, UNS32) 
+X(SMALLPANEL_GRAY_AUTO, smallpanel, &Ccd.displayGrayLevelAuto, GRAY_AUTO, INT)
