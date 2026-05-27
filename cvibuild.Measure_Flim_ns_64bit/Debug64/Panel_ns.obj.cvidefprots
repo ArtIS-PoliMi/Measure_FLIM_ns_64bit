@@ -326,10 +326,6 @@ Prototype="int SingleGrabM();"
 Class="Function"
 Prototype="int ImageGrabM();"
 
-[F2026ImageRatioGrabM]
-Class="Function"
-Prototype="int F2026ImageRatioGrabM();"
-
 [AcquireM]
 Class="Function"
 Prototype="int AcquireM();"

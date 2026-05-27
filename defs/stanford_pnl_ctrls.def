@@ -1,4 +1,4 @@
-X(STFORD_PNL_TRIG_EXTERN, stanfordPnl, &stanford.triggerExternal, TRIG_EXTERN, INT) 
-X(STFORD_PNL_TRIGGERSLOPE, stanfordPnl, &stanford.triggerSlope, TRIGGERSLOPE, SHORT) 
-X(STFORD_PNL_TRIGGERTHR, stanfordPnl, &stanford.triggerLevel, TRIGGERTHR, FLOAT) 
-X(STFORD_PNL_INVERT, stanfordPnl, &stanford.invertedOutput, INVERT, SHORT)
+X(STFORD_PNL_TRIG_EXTERN, stanfordPnl, &stanford.triggerExternal, STFORD_TRIG_EXTERN, INT) 
+X(STFORD_PNL_TRIGGERSLOPE, stanfordPnl, &stanford.triggerSlope, STFORD_TRIGGERSLOPE, SHORT) 
+X(STFORD_PNL_TRIGGERTHR, stanfordPnl, &stanford.triggerLevel, STFORD_TRIGGERTHR, FLOAT) 
+X(STFORD_PNL_INVERT, stanfordPnl, &stanford.invertedOutput, STFORD_INVERT, SHORT)

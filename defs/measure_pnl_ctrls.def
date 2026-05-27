@@ -14,6 +14,7 @@ X(MEASURE_DELAY, measure, &Delays.Set, DELAY, INT)
 X(MEASURE_TIMESCALE, measure, &Delays.timescale, TIMESCALE, UNS16) 
 X(MEASURE_LASER_ON, measure, &Hardware.Laser, LASER_ON, INT) 
 X(MEASURE_LASER_FREQ, measure, &Laser.Freq, LASER_FREQ, INT) 
+X(MEASURE_CCD_EXPOSURE, measure, &Ccd.Exposure, CCD_EXPOSURE, INT)
 X(MEASURE_INT_ON, measure, &Hardware.Intensifier, IN_ON, INT) 
 X(MEASURE_CCD_ON, measure, &Hardware.Ccd, CCD_ON, INT) 
 X(MEASURE_DEL_ON, measure, &Hardware.Del, DEL_ON, INT)
@@ -59,3 +60,5 @@ X(MEASURE_DELAY_AUTOVALUEFILE, measure, &Delays.AutoValueFile, DELAY_AUTOVALUEFI
 X(MEASURE_NUMDELAY_AUTO, measure, &Delays.NumDelaysAuto, NUMDELAY_AUTO, INT)
 X(MEASURE_SWITCH_GAIN_MEAS, measure, &SwitchGainMeas, SWITCH_GAIN_MEAS, INT)
 X(MEASURE_SWITCH_GAIN_CALC, measure, &SwitchGainCalc, SWITCH_GAIN_CALC, INT)
+
+

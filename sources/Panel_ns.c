@@ -40,21 +40,6 @@ static Image* image;
 
 /***************** Global Variable definitions ***************/
 
-/*
-// table 
-stMeas tMeas;
-
-// arrays containing the delays to use for Gain calculation and measurements
-int DelaysForGainCalc[MAXDELAYSFORGAINCALC];
-int DelaysForMeasurement[MAXDELAYSFORMEASUREMENT];
-
-
-int NumMeas, NumSmallPnl, NumD150Pnl, NumStanfordPnl, NumCtrl, NumConsoleProfile, NumDelaysGainCalcMeasurement;
-
-// contain the values of the binary old-new switches
-int SwitchGainMeas = 0;
-int SwitchGainCalc = 0;
-*/
 
 // small function declarations  <=========TEMPORARY!!!
 ColorMapEntry *CreateColorMap(double minVal, double maxVal);   
@@ -78,7 +63,7 @@ ColorMapEntry *cMap;
 int main (int argc, char *argv[])
 {
 	
-	// placeholder
+	// placeholder ************************************/
 	// prototype drawing tau 
 	
 	for(int i = 0; i<Nx*Ny; i++){
@@ -87,7 +72,7 @@ int main (int argc, char *argv[])
 
 	getMinMax(tau, Nx*Ny, &minTau, &maxTau); // saves the minTau and maxTau
 	
-	 //
+	 //***********************************************/
 	 
 	 
 	// initialize the delay arrays to -1
@@ -120,7 +105,7 @@ int main (int argc, char *argv[])
 	DisplayPanel (console);
 	CreateUserPalette();
 	//CreateTableMeas();  //OLD
-	CreateTableMeas(&tMeas);
+	CreateTableMeas(&tMeas);  // populate the tMeas fields
 	InitUir();	
 	image = imaqCreateImage (IMAQ_IMAGE_U16, 1);  
 	
