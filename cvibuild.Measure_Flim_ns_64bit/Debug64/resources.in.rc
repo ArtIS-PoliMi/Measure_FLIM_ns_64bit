@@ -6,7 +6,7 @@
 
 STRINGTABLE DISCARDABLE
 BEGIN
-  65535  "Measure_Flim_ns_64bit"
+  65535  "Measure_Flim_ns_64bit_F2026_debug64"
 END
 
 VS_VERSION_INFO VERSIONINFO
@@ -23,12 +23,12 @@ BEGIN
         BLOCK "040904b0"
         BEGIN
             VALUE "CompanyName", "POLITECNICO DI MILANO  (IT)\0"
-            VALUE "FileDescription", "Measure_Flim_ns_64bit (Debug x64)\0"
+            VALUE "FileDescription", "Measure_Flim_ns_64bit_F2026_debug64 (Debug x64)\0"
             VALUE "FileVersion", "1.0\0"
-            VALUE "InternalName", "Measure_Flim_ns_64bit\0"
+            VALUE "InternalName", "Measure_Flim_ns_64bit_F2026_debug64\0"
             VALUE "LegalCopyright", "Copyright © POLITECNICO DI MILANO  (IT) 2026\0"
-            VALUE "OriginalFilename", "Measure_Flim_ns_64bit.exe\0"
-            VALUE "ProductName", "POLITECNICO DI MILANO  (IT) Measure_Flim_ns_64bit\0"
+            VALUE "OriginalFilename", "Measure_Flim_ns_64bit_F2026_debug64.exe\0"
+            VALUE "ProductName", "POLITECNICO DI MILANO  (IT) Measure_Flim_ns_64bit_F2026_debug64\0"
             VALUE "ProductVersion", "1.0\0"
         END
     END

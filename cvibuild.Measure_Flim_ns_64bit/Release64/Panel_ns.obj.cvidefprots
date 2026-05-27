@@ -66,14 +66,6 @@ Prototype="int ImageGrab(int panel, int control, int event, void *callbackData, 
 Class="Function"
 Prototype="void Acquire(int menuBar, int menuItem, void *callbackData, int panel);"
 
-[LoadSetting]
-Class="Function"
-Prototype="void LoadSetting(int menuBar, int menuItem, void *callbackData, int panel);"
-
-[SaveSetting]
-Class="Function"
-Prototype="void SaveSetting(int menuBar, int menuItem, void *callbackData, int panel);"
-
 [LoadImg]
 Class="Function"
 Prototype="void LoadImg(int menuBar, int menuItem, void *callbackData, int panel);"

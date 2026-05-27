@@ -1,5 +1,5 @@
 -nologo
--out:c:\ProgrammiNostri\Measure_Flim_ns_64bit_F2026\cvibuild.Measure_Flim_ns_64bit\Debug64\Measure_Flim_ns_64bit.exe
+-out:c:\ProgrammiNostri\Measure_Flim_ns_64bit_F2026\cvibuild.Measure_Flim_ns_64bit\Debug64\Measure_Flim_ns_64bit_F2026_debug64.exe
 -arch:x64
 -timestamp
 -debug:2

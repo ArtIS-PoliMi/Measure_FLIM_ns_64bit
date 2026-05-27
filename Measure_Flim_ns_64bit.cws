@@ -30,7 +30,7 @@ Save Changes Before Compiling = "Always"
 Hide Windows = False
 Break At First Statement = False
 Sort Type = "File Name"
-Number of Opened Files = 9
+Number of Opened Files = 6
 Window Confinement Region Enabled = True
 MainColumnWidth = 329
 FileDateColumnWidth = 70
@@ -48,23 +48,23 @@ Batch Build Debug = False
 [File 0001]
 Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/Panel_ns.uir"
 File Type = "User Interface Resource"
-Disk Date = 3862729729
+Disk Date = 3862738391
 In Projects = "1,"
 Window Top = 62
 Window Left = 26
 Window Height = 349
 Window Width = 683
-Window Z-Order = 6
+Window Z-Order = 2
 
 [File 0002]
 Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/Panel_ns.c"
 File Type = "CSource"
-Disk Date = 3862729724
+Disk Date = 3862738186
 In Projects = "1,"
 Window Top = 38
 Window Left = 11
 Window Z-Order = 1
-Source Window State = "1,42,56,56,0,8160,5,1,0,166,0,0,0,0,0,54,210,0,42,0,427,804,1,0,"
+Source Window State = "1,32,33,33,0,8160,24,1,0,166,0,153,0,0,0,54,0,0,15,54,427,804,1,11,"
 
 [File 0003]
 Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/R6_utilities.c"
@@ -74,80 +74,38 @@ In Projects = "1,"
 Window Top = 92
 Window Left = 42
 Window Z-Order = 3
-Source Window State = "1,2,3,3,0,8160,42,1,0,67,0,0,0,80,0,20,0,0,2,42,349,683,1,14,"
+Source Window State = "1,2,3,3,0,8160,42,1,0,67,0,0,0,80,0,20,0,0,18,35,349,683,1,14,"
 
 [File 0004]
 Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/Measure_nsF2026.h"
 File Type = "Include"
-Disk Date = 3862219517
+Disk Date = 3862738404
 In Projects = "1,"
 Window Top = 38
 Window Left = 11
 Window Z-Order = 4
-Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,0,0,427,804,1,0,"
+Source Window State = "1,422,422,422,19,20,20,1,0,80,0,0,0,0,0,25,387,0,407,38,427,804,1,0,"
 
 [File 0005]
-Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/d150_pnl_ctrls.def"
-File Type = "Unknown"
-Disk Date = 3862714286
-In Projects = "1,"
-Window Top = 110
-Window Left = 49
-Window Z-Order = 8
-
-[File 0006]
 Path Line0001 = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/delays_for_gain_calc_and_mea"
 Path Line0002 = "surement.def"
 File Type = "Unknown"
-Disk Date = 3860845903
+Disk Date = 3862734568
+In Projects = "1,"
+Window Top = 38
+Window Left = 11
+Window Z-Order = 6
+
+[File 0006]
+Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/controls.def"
+File Type = "Unknown"
+Disk Date = 3862734348
 In Projects = "1,"
 Window Top = 74
 Window Left = 30
-Window Z-Order = 7
+Window Z-Order = 5
 
 [File 0007]
-Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/stanford_pnl_ctrls.def"
-File Type = "Unknown"
-Disk Date = 3862714202
-In Projects = "1,"
-Window Top = 146
-Window Left = 68
-Window Z-Order = 9
-
-[File 0008]
-Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/measure_pnl_ctrls.def"
-File Type = "Unknown"
-Disk Date = 3862729732
-In Projects = "1,"
-Window Top = 182
-Window Left = 87
-Window Z-Order = 2
-
-[File 0009]
-Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/Table_ns.h"
-File Type = "Include"
-Disk Date = 3844754293
-In Projects = "1,"
-Window Top = 36
-Window Left = 10
-Window Z-Order = 5
-Source Window State = "1,116,116,116,49,70,49,1,0,67,0,84,0,0,0,20,2,0,115,19,349,683,1,0,"
-
-[File 0010]
-Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/consoleprofile_pnl_ctrls.def"
-File Type = "Unknown"
-Disk Date = 3857983583
-In Projects = "1,"
-
-[File 0011]
-Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/small_pnl_ctrls.def"
-File Type = "Unknown"
-Disk Date = 3858940628
-In Projects = "1,"
-Window Top = 74
-Window Left = 30
-
-[File 0012]
 Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/types.def"
 File Type = "Unknown"
 Disk Date = 3857989217
@@ -155,7 +113,7 @@ In Projects = "1,"
 Window Top = 182
 Window Left = 87
 
-[File 0013]
+[File 0008]
 Path = "/c/Program Files/Photometrics/PVCamSDK/Inc/master.h"
 File Type = "Include"
 Disk Date = 3579043048
@@ -164,16 +122,16 @@ Window Top = 122
 Window Left = 58
 Source Window State = "1,51,51,51,2,28,28,0,0,0,0,0,0,0,0,0,0,0,8,19,349,683,1,0,"
 
-[File 0014]
+[File 0009]
 Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/Panel_ns.h"
 File Type = "Include"
-Disk Date = 3862200025
+Disk Date = 3862738227
 In Projects = "1,"
 Window Top = 218
 Window Left = 106
 Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,427,804,1,0,"
 
-[File 0015]
+[File 0010]
 Path = "/c/Program Files/Photometrics/PVCamSDK/Inc/pvcam.h"
 File Type = "Include"
 Disk Date = 3631256450
@@ -182,7 +140,7 @@ Window Top = 36
 Window Left = 10
 Source Window State = "1,3643,3643,3643,16,33,33,1,3,0,0,0,0,0,0,0,3617,0,3643,16,297,683,1,0,"
 
-[File 0016]
+[File 0011]
 Path = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/R6_utilities.h"
 File Type = "Include"
 Disk Date = 3557992605
@@ -191,7 +149,7 @@ Window Top = 122
 Window Left = 58
 Source Window State = "1,30,30,30,4,17,17,0,3,0,0,37,0,37,0,0,6,0,30,4,349,683,1,0,"
 
-[File 0017]
+[File 0012]
 Path Line0001 = "/c/Program Files/Photometrics/PVCamSDK/Examples/PvcamCodeSamples/src/CommonFiles"
 Path Line0002 = "/version.h"
 File Type = "Include"
@@ -201,31 +159,31 @@ Window Top = 38
 Window Left = 11
 Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,531,1020,1,0,"
 
-[File 0018]
+[File 0013]
 Path = "/c/Program Files (x86)/National Instruments/CVI2017/bin/msvc64/gpib.lib"
 File Type = "Library"
 Disk Date = 3573590400
 In Projects = "1,"
 
-[File 0019]
+[File 0014]
 Path = "/c/Users/Public/Documents/GPIB-488/Language Interfaces/C/win64/gpib488.obj"
 File Type = "Object"
 Disk Date = 3316029960
 In Projects = "1,"
 
-[File 0020]
+[File 0015]
 Path = "/c/Program Files (x86)/National Instruments/Vision/Lib/MSVC64/nivision.lib"
 File Type = "Library"
 Disk Date = 3620628362
 In Projects = "1,"
 
-[File 0021]
+[File 0016]
 Path = "/c/Program Files/Photometrics/PVCamSDK/Lib/i386/pvcam32.lib"
 File Type = "Library"
 Disk Date = 3632954622
 In Projects = "1,"
 
-[File 0022]
+[File 0017]
 Path = "/c/Program Files/Photometrics/PVCamSDK/Lib/amd64/pvcam64.lib"
 File Type = "Library"
 Disk Date = 3632954622
@@ -238,10 +196,7 @@ Tab 0003 = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/R6_utilities.
 Tab 0004 = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/Measure_nsF2026.h"
 Tab 0005 Line0001 = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/delays_for_gain_calc_and_mea"
 Tab 0005 Line0002 = "surement.def"
-Tab 0006 = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/d150_pnl_ctrls.def"
-Tab 0007 = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/stanford_pnl_ctrls.def"
-Tab 0008 = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/sources/Table_ns.h"
-Tab 0009 = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/measure_pnl_ctrls.def"
+Tab 0006 = "/c/ProgrammiNostri/Measure_Flim_ns_64bit_F2026/defs/controls.def"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True

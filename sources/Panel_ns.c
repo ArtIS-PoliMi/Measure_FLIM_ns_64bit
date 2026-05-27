@@ -28,11 +28,8 @@
 
 
 #include "Measure_nsF2026.h"
-FRAME_INFO *ccd_pFrameInfo = NULL;	  // initialization 
 
 #include "Panel_ns.h"
-//#include "Table_ns.h"
-//#include "utils.h"
 
 
 static int QuitProg;
@@ -190,6 +187,7 @@ void InitUir(void){
 	//SwitchGain (measure, MEASURE_SWITCH_GAIN_CALC, EVENT_COMMIT, NULL, 0, 0); // execute the binary switches callbacks
 	//SwitchGain (measure, MEASURE_SWITCH_GAIN_MEAS, EVENT_COMMIT, NULL, 0, 0); 
 	Ccd.Binningy = Ccd.Binningx;
+	SetCtrlVal(smallpanel, SMALLPANEL_CCD_EXPOSURE, Ccd.Exposure);
 
 	
 }
@@ -558,6 +556,8 @@ void CVICALLBACK Acquire (int menuBar, int menuItem, void *callbackData,
 
 //**************************************************************************************//
 
+// DEPRECATED: REPLACED BY "LoadSettingsTxt" // F2026
+/*
 void CVICALLBACK LoadSetting (int menuBar, int menuItem, void *callbackData,
 							  int panel)
 {
@@ -583,9 +583,12 @@ void CVICALLBACK LoadSetting (int menuBar, int menuItem, void *callbackData,
 		status=GetCtrlVal(d150panel,tMeas.Ctrl[idx],tMeas.Addr[idx]);
 	for(idx=NumD150Pnl;idx<NumStanfordPnl;idx++)
 		status=GetCtrlVal(stanfordPnl,tMeas.Ctrl[idx],tMeas.Addr[idx]);	
-}
+}*/
+
 //*************************************Set Delay and gain************************************//
 
+// DEPRECATED: REPLACED BY "SaveSettingsTxt" // F2026 
+/*
 void CVICALLBACK SaveSetting (int menuBar, int menuItem, void *callbackData,
 							  int panel)
 {
@@ -601,7 +604,7 @@ void CVICALLBACK SaveSetting (int menuBar, int menuItem, void *callbackData,
 	status=SavePanelState(graph,fpath,SPECTR_PNL);
 	status=SavePanelState(console,fpath,CONSOLE);
 	
-}
+} */
 
 //*************************************Set Delay and gain************************************//
 
@@ -735,6 +738,7 @@ void OpenDisplay(int *window){
 	imaqShowScrollbars(*window, 1);
 	imaqSetWindowPalette(*window,  IMAQ_PALETTE_USER, userPalette, sizeof(userPalette)/sizeof(*userPalette)); 
 	imaqSetWindowZoomToFit(*window,TRUE);
+	imaqMoveWindow(*window, windowPos); 
 	
 }
 
@@ -3906,6 +3910,7 @@ void CVICALLBACK LoadSettingsTxt (int menuBar, int menuItem, void *callbackData,
 		
 	SwitchGain (measure, MEASURE_SWITCH_GAIN_MEAS, EVENT_COMMIT, NULL, 0, 0); // execute the binary switch callback
 	Ccd.Binningy = Ccd.Binningx;
+	SetCtrlVal(smallpanel, SMALLPANEL_CCD_EXPOSURE, Ccd.Exposure);
 	
 	
 }
@@ -4340,11 +4345,11 @@ int idx = 0;
 	s->Ctrl[idx] = ctrl; \
 	s->Pnl[idx] =  pnl; \
 	s->Addr[idx] = addr; \
-	strcpy(s->CtrlName[idx], #ctrlName); \
+	strcpy(s->CtrlName[idx], ctrlName); \
 	s->Type[idx] = type; \
 	idx++;
 
-
+/*
 //MEASURE_TABLE   
 #include "measure_pnl_ctrls.def"
 NumMeas = idx;
@@ -4362,14 +4367,20 @@ NumD150Pnl = idx;
 #include "stanford_pnl_ctrls.def"   
 NumStanfordPnl = idx;
 
-
-// DELAYS FOR GAIN CALC AND MEASUREMENT
-# include "delays_for_gain_calc_and_measurement.def"
-NumDelaysGainCalcMeasurement = idx;
-
 //CONSOLEPROFILE_TABLE
 // #include "consoleprofile_pnl_ctrls.def"   
 //NumConsoleProfile=idx;
+
+*/
+
+// CONTROLS 
+# include "controls.def";
+
+
+// DELAYS FOR GAIN CALC AND MEASUREMENT
+# include "delays_for_gain_calc_and_measurement.def"
+//NumDelaysGainCalcMeasurement = idx;
+
 
 
 NumCtrl = idx;

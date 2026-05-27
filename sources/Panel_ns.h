@@ -200,25 +200,22 @@
 
 #define  MENU                             1
 #define  MENU_FILE                        2
-#define  MENU_FILE_LOAD                   3       /* callback function: LoadSetting */
-#define  MENU_FILE_SAVE                   4       /* callback function: SaveSetting */
-#define  MENU_FILE_SEPARATOR              5
-#define  MENU_FILE_LOAD_IMG               6       /* callback function: LoadImg */
-#define  MENU_FILE_SEPARATOR_2            7
-#define  MENU_FILE_SAVE_SETTINGS_TXT      8       /* callback function: SaveSettingsTxt */
-#define  MENU_FILE_LOAD_SETTINGS_TXT      9       /* callback function: LoadSettingsTxt */
-#define  MENU_FILE_QUIT                   10      /* callback function: Quit */
-#define  MENU_VIEW                        11
-#define  MENU_VIEW_VIEWCCD                12      /* callback function: ccdpanel */
-#define  MENU_VIEW_VIEWGRAY               13      /* callback function: GrayPanel */
-#define  MENU_VIEW_VIEWSMALLPANEL         14      /* callback function: SmallPanel */
-#define  MENU_VIEW_VIEWDEL150PANEL        15      /* callback function: Del150Panel */
-#define  MENU_VIEW_VIEWSTANFORDPANEL      16      /* callback function: StanfordPanel */
-#define  MENU_VIEW_VIEWCONSOLEPANEL       17      /* callback function: ConsolePanel */
-#define  MENU_RUN                         18
-#define  MENU_RUN_ACQUIRE                 19      /* callback function: Acquire */
-#define  MENU_HELP                        20
-#define  MENU_HELP_ABOUT                  21      /* callback function: About */
+#define  MENU_FILE_LOAD_IMG               3       /* callback function: LoadImg */
+#define  MENU_FILE_SEPARATOR_2            4
+#define  MENU_FILE_SAVE_SETTINGS_TXT      5       /* callback function: SaveSettingsTxt */
+#define  MENU_FILE_LOAD_SETTINGS_TXT      6       /* callback function: LoadSettingsTxt */
+#define  MENU_FILE_QUIT                   7       /* callback function: Quit */
+#define  MENU_VIEW                        8
+#define  MENU_VIEW_VIEWCCD                9       /* callback function: ccdpanel */
+#define  MENU_VIEW_VIEWGRAY               10      /* callback function: GrayPanel */
+#define  MENU_VIEW_VIEWSMALLPANEL         11      /* callback function: SmallPanel */
+#define  MENU_VIEW_VIEWDEL150PANEL        12      /* callback function: Del150Panel */
+#define  MENU_VIEW_VIEWSTANFORDPANEL      13      /* callback function: StanfordPanel */
+#define  MENU_VIEW_VIEWCONSOLEPANEL       14      /* callback function: ConsolePanel */
+#define  MENU_RUN                         15
+#define  MENU_RUN_ACQUIRE                 16      /* callback function: Acquire */
+#define  MENU_HELP                        17
+#define  MENU_HELP_ABOUT                  18      /* callback function: About */
 
 
      /* Callback Prototypes: */
@@ -241,11 +238,9 @@ void CVICALLBACK GrayPanel(int menubar, int menuItem, void *callbackData, int pa
 int  CVICALLBACK ImageGrab(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);
 int  CVICALLBACK InitHw(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);
 void CVICALLBACK LoadImg(int menubar, int menuItem, void *callbackData, int panel);
-void CVICALLBACK LoadSetting(int menubar, int menuItem, void *callbackData, int panel);
 void CVICALLBACK LoadSettingsTxt(int menubar, int menuItem, void *callbackData, int panel);
 int  CVICALLBACK MeasurePanelCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);
 void CVICALLBACK Quit(int menubar, int menuItem, void *callbackData, int panel);
-void CVICALLBACK SaveSetting(int menubar, int menuItem, void *callbackData, int panel);
 void CVICALLBACK SaveSettingsTxt(int menubar, int menuItem, void *callbackData, int panel);
 int  CVICALLBACK SetDelay(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);
 int  CVICALLBACK SetGain(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);

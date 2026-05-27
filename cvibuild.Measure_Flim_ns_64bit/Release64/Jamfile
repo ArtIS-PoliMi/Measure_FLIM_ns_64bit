@@ -36,7 +36,6 @@ LOCATE on "Panel_ns.h" = "c:\\ProgrammiNostri\\Measure_Flim_ns_64bit_F2026\\sour
 LOCATE on "pvcam.h" = "c:\\Program Files\\Photometrics\\PVCamSDK\\Inc" ;
 LOCATE on "R6_utilities.c" = "c:\\ProgrammiNostri\\Measure_Flim_ns_64bit_F2026\\sources" ;
 LOCATE on "R6_utilities.h" = "c:\\ProgrammiNostri\\Measure_Flim_ns_64bit_F2026\\sources" ;
-LOCATE on "Table_ns.h" = "c:\\ProgrammiNostri\\Measure_Flim_ns_64bit_F2026\\sources" ;
 LOCATE on "version.h" = "c:\\Program Files\\Photometrics\\PVCamSDK\\Examples\\PvcamCodeSamples\\src\\CommonFiles" ;
 Object "c:\\ProgrammiNostri\\Measure_Flim_ns_64bit_F2026\\cvibuild.Measure_Flim_ns_64bit\\Release64\\Panel_ns.obj" : "c:\\ProgrammiNostri\\Measure_Flim_ns_64bit_F2026\\sources\\Panel_ns.c" ;
 FILENUM on "c:\\ProgrammiNostri\\Measure_Flim_ns_64bit_F2026\\cvibuild.Measure_Flim_ns_64bit\\Release64\\Panel_ns.obj" = 1 ;

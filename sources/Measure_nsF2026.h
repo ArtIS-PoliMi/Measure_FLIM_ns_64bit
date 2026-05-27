@@ -12,6 +12,7 @@
 // F2026 addition 
 # include "master.h"
 # include "pvcam.h"
+# include <userint.h>
 
 
 
@@ -393,8 +394,8 @@ uns16 *buffer12Bkg;
 uns16 *displayBuffer12;
 double *bufferSpectrum;  
 rgn_type ccdRoi;
-//FRAME_INFO *ccd_pFrameInfo = NULL;	  // F2026
-FRAME_INFO *ccd_pFrameInfo;
+FRAME_INFO *ccd_pFrameInfo = NULL;	  
+
 
 RGBValue userPalette[NUM_COLORS_8_BIT];
 int voltageValues[NUM_GAIN_VALUES];
@@ -405,15 +406,20 @@ char Message[STRLEN];
 int d150panel, stanfordPnl, console, keypress;
 int smallpanel, measure, graph, taupanel;
 
+
+
 // F2026 addition
 int SwitchGainMeas;
 int SwitchGainCalc;
 
-int NumMeas, NumSmallPnl, NumD150Pnl, NumStanfordPnl, NumCtrl, NumConsoleProfile, NumDelaysGainCalcMeasurement;
+//int NumMeas, NumSmallPnl, NumD150Pnl, NumStanfordPnl, NumCtrl, NumConsoleProfile, NumDelaysGainCalcMeasurement;
+int NumCtrl;
 
 
 int DelaysForGainCalc[MAXDELAYSFORGAINCALC];
 int DelaysForMeasurement[MAXDELAYSFORMEASUREMENT];
+
+Point windowPos = {60, 0};
 
 
 
